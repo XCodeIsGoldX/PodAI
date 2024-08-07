@@ -13,11 +13,11 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Initialize FastAPI app for API endpoints and Docker client for container operations
-app = FastAPI(title="Autonomous AI Container Manager")
+app = FastAPI(title="PodAI, an autonomous container agent tool")
 docker_client = docker.from_env()
 
 class AutonomousAI:
-    def __init__(self, model_name: str = "qwen2"):
+    def __init__(self, model_name: str = "llama3.1"):
         # Initialize the AI model using Ollama
         self.llm = Ollama(model=model_name)
         # Store recent decisions and actions
