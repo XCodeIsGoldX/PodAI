@@ -35,9 +35,10 @@ PodAI is an innovative project that combines AI decision-making with Docker cont
 
 4. Ensure Docker is running on your system.
 
-5. Install Ollama and download the "qwen2" model:
+5. Install Ollama and download a model,
+   for example:
    ```
-   ollama pull qwen2
+   ollama pull llama3.1
    ```
 
 ## Usage
