@@ -18,7 +18,7 @@ PodAI is an innovative project that combines AI decision-making with Docker cont
 ## Installation
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/podai.git
+   git clone https://github.com/XCodeIsGoldX/PodAI.git
    cd podai
    ```
 
